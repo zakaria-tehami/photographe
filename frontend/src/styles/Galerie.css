@@ -1,0 +1,56 @@
+.menuItem {
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.2 ease-in-out;
+}
+
+.image-class {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.galerie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menuItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    transform: scale(1.05); 
+}
+
+.menuTitle {
+    color: #47555e;
+    text-align: center;
+}
+
+.galerie-con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.filter-select{
+    padding: 10px;
+    margin: 20px 0;
+    color: #47555e;
+    border-color: #47555e;
+}
+
+
+.galerie-con h1{
+    color: #47555e;
+}
